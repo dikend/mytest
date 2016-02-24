@@ -18,13 +18,13 @@ HTML基础结构
     <html>
     <head>
     <meta charset="utf-8"/>
-    <title>NEC：更好的CSS方案</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1”>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    <meta name="viewport" content="width=device-width"/>
+    <title>开发规范</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="shortcut icon" href="img/favicon.ico"/>
-    <link rel="apple-touch-icon" href="img/touchicon.png"/>
     </head>
     <body>
       
@@ -32,24 +32,30 @@ HTML基础结构
   </html> 
 ```
 
-##有问题反馈
-在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
+###结构顺序和视觉顺序基本保持一致
 
-* 邮件(dev.hubo#gmail.com, 把#换成@)
-* QQ: 287759234
-* weibo: [@草依山](http://weibo.com/ihubo)
-* twitter: [@ihubo](http://twitter.com/ihubo)
+* 有时候为了便于搜索引擎抓取，我们也会将重要内容在HTML结构顺序上提前。
+* 用div代替table布局，可以使HTML更具灵活性，也方便利用CSS控制。
+* table不建议用于布局，但表现具有明显表格形式的数据，table还是首选。
 
-##捐助开发者
-在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
-当然，有钱捧个钱场（右上角的爱心标志，支持支付宝和PayPal捐助），没钱捧个人场，谢谢各位。
+###结构、表现、行为三者分离，避免内联
 
-##感激
-感谢以下的项目,排名不分先后
+* 使用link将css文件引入，并置于head中。
+* 使用script将js文件引入，并置于body底部。
 
-* [mou](http://mouapp.com/) 
-* [ace](http://ace.ajax.org/)
-* [jquery](http://jquery.com)
+###其他说明
+
+* 一个标签上引用的className不要过多，越少越好。
+比如避免这种情况频繁：<div class="class1 class2 class3 class4"></div>
+
+###说明文案的注释方法
+采用类似标签闭合的写法，与HTML统一格式；注释文案两头空格，与CSS注释统一格式。
+
+    开始注释：<!-- 注释文案 -->（文案两头空格）。
+    结束注释：<!-- /注释文案 -->（文案前加“/”符号，类似标签的闭合）。
+    允许只有开始注释！
+
+
 
 ##关于作者
 
