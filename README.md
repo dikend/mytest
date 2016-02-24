@@ -202,35 +202,6 @@ HTML基础结构
 </tbody>
 </table>
 
-
-
-导航    nav	nav
-子导航	subnav	snav
-面包屑	crumb	crm
-菜单	menu	menu
-选项卡	tab	tab
-标题区	head/title	hd/tt
-内容区	body/content	bd/ct
-列表	list	lst
-表格	table	tb
-表单	form	fm
-热点	hot	hot
-排行	top	top
-登录	login	log
-标志	logo	logo
-广告	advertise	ad
-搜索	search	sch
-幻灯	slide	sld
-提示	tips	tips
-帮助	help	help
-新闻	news	news
-下载	download	dld
-注册	regist	reg
-投票	vote	vote
-版权	copyright	cprt
-结果	result	rst
-
-
 * 模块（.m-）、元件（.u-）
 <table>
 <thead>
@@ -247,23 +218,64 @@ HTML基础结构
 <tr><td>菜单</td><td>menu</td><td>menu</td></tr>
 <tr><td>选项卡</td><td>tab</td><td>tab</td></tr>
 <tr><td>标题区</td><td>head/title</td><td>hd/tt</td></tr>
-
 <tr><td>列表</td><td>list</td><td>lst</td></tr>
 <tr><td>表格</td><td>table</td><td>tb</td></tr>
 <tr><td>表单</td><td>form</td><td>fm</td></tr>
 <tr><td>热点</td><td>hot</td><td>hot</td></tr>
 <tr><td>排行</td><td>top</td><td>top</td></tr>
 <tr><td>注册</td><td>regist</td><td>reg</td></tr>
-
 <tr><td>登录</td><td>login</td><td>log</td></tr>
 <tr><td>标志</td><td>logo</td><td>logo</td></tr>
 <tr><td>提示</td><td>tips</td><td>tips</td></tr>
 <tr><td>标题</td><td>title</td><td>tt</td></tr>
 <tr><td>按钮</td><td>button</td><td>btn</td></tr>
 <tr><td>输入</td><td>input</td><td>ipt</td></tr>
+</tbody>
+</table>
 
-    
+* 功能（.f-）		
+<table>
+<thead>
+<tr>
+<th>语义</th>
+<th>命名</th>
+<th>简写</th>
+</tr>
+</thead>
+<tbody> 
+<tr><td>浮动清除</td><td>clearboth</td><td>cb</td></tr>
+<tr><td>向左浮动</td><td>floatleft</td><td>fl</td></tr>
+<tr><td>向右浮动</td><td>floatright</td><td>fr</td></tr>
+<tr><td>内联块级</td><td>inlineblock</td><td>ib</td></tr>
+<tr><td>文本居中</td><td>textaligncenter</td><td>tac</td></tr>
+<tr><td>文本居右</td><td>textalignright</td><td>tar</td></tr>
+<tr><td>文本居左</td><td>textalignleft</td><td>tal</td></tr>
+<tr><td>垂直居中</td><td>verticalalignmiddle</td><td>vam</td></tr>
+<tr><td>溢出隐藏</td><td>overflowhidden</td><td>oh</td></tr>
+<tr><td>完全消失</td><td>displaynone</td><td>dn</td></tr>
+<tr><td>字体大小</td><td>fontsize</td><td>fs</td></tr>
+<tr><td>字体粗细</td><td>fontweight</td><td>fw</td></tr>
+</tbody>
+</table>
 
+* 状态（.z-）
+<table>
+<thead>
+<tr>
+<th>语义</th>
+<th>命名</th>
+<th>简写</th>
+</tr>
+</thead>
+<tbody> 
+<tr><td>选中</td><td>selected</td><td>sel</td></tr>
+<tr><td>当前</td><td>current</td><td>crt</td></tr>
+<tr><td>显示</td><td>show</td><td>show</td></tr>
+<tr><td>隐藏</td><td>hide</td><td>hide</td></tr>
+<tr><td>打开</td><td>open</td><td>open</td></tr>
+<tr><td>关闭</td><td>close</td><td>close</td></tr>
+<tr><td>出错</td><td>error</td><td>err</td></tr>
+<tr><td>不可用</td><td>disabled</td><td>dis</td></tr>
 </tbody>
 </table>
 
