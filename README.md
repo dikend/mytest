@@ -180,7 +180,7 @@ HTML基础结构
 .m-nav.z-dis{}/* 作用同上，请二选一（如果可以不兼容IE6时使用） */
 ```
 
-
+* 布局（.g-）
 <table>
 <thead>
 <tr>
@@ -189,13 +189,82 @@ HTML基础结构
 <th>简写</th>
 </tr>
 </thead>
-<tbody>
-<tr><td>1900</td><td>-10</td><td>25</td></tr>
-<tr><td>1910</td><td>-15</td><td>30</td></tr>
-<tr><td>1920</td><td>-10</td><td>32</td></tr>
+<tbody> 
+<tr><td>文档</td><td>doc</td><td>doc</td></tr>
+<tr><td>头部</td><td>head</td><td>hd</td></tr>
+<tr><td>主体</td><td>body</td><td>bd</td></tr>
+<tr><td>尾部</td><td>foot</td><td>ft</td></tr>
+<tr><td>主栏</td><td>main</td><td>mn</td></tr>
+<tr><td>主栏子容器</td><td>mainc</td><td>mnc</td></tr>
+<tr><td>侧栏</td><td>side</td><td>sd</td></tr>
+<tr><td>侧栏子容器</td><td>sidec</td><td>sdc</td></tr>
+<tr><td>盒容器</td><td>wrap/box</td><td>wrap/box</td></tr>
 </tbody>
 </table>
 
 
+
+导航    nav	nav
+子导航	subnav	snav
+面包屑	crumb	crm
+菜单	menu	menu
+选项卡	tab	tab
+标题区	head/title	hd/tt
+内容区	body/content	bd/ct
+列表	list	lst
+表格	table	tb
+表单	form	fm
+热点	hot	hot
+排行	top	top
+登录	login	log
+标志	logo	logo
+广告	advertise	ad
+搜索	search	sch
+幻灯	slide	sld
+提示	tips	tips
+帮助	help	help
+新闻	news	news
+下载	download	dld
+注册	regist	reg
+投票	vote	vote
+版权	copyright	cprt
+结果	result	rst
+
+
+* 模块（.m-）、元件（.u-）
+<table>
+<thead>
+<tr>
+<th>语义</th>
+<th>命名</th>
+<th>简写</th>
+</tr>
+</thead>
+<tbody> 
+<tr><td>导航</td><td>nav</td><td>nav</td></tr>
+<tr><td>子导航</td><td>subnav</td><td>snav</td></tr>
+<tr><td>面包屑</td><td>crumb</td><td>crm</td></tr>
+<tr><td>菜单</td><td>menu</td><td>menu</td></tr>
+<tr><td>选项卡</td><td>tab</td><td>tab</td></tr>
+<tr><td>标题区</td><td>head/title</td><td>hd/tt</td></tr>
+
+<tr><td>列表</td><td>list</td><td>lst</td></tr>
+<tr><td>表格</td><td>table</td><td>tb</td></tr>
+<tr><td>表单</td><td>form</td><td>fm</td></tr>
+<tr><td>热点</td><td>hot</td><td>hot</td></tr>
+<tr><td>排行</td><td>top</td><td>top</td></tr>
+<tr><td>注册</td><td>regist</td><td>reg</td></tr>
+
+<tr><td>登录</td><td>login</td><td>log</td></tr>
+<tr><td>标志</td><td>logo</td><td>logo</td></tr>
+<tr><td>提示</td><td>tips</td><td>tips</td></tr>
+<tr><td>标题</td><td>title</td><td>tt</td></tr>
+<tr><td>按钮</td><td>button</td><td>btn</td></tr>
+<tr><td>输入</td><td>input</td><td>ipt</td></tr>
+
+    
+
+</tbody>
+</table>
 
 
