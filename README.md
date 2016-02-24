@@ -180,8 +180,22 @@ HTML基础结构
 .m-nav.z-dis{}/* 作用同上，请二选一（如果可以不兼容IE6时使用） */
 ```
 
-| 语义  |  命名 | 简写 |
-| ------------ | ------------ |
-|   |   |
-|   |   |
+
+<table>
+<thead>
+<tr>
+<th>语义</th>
+<th>命名</th>
+<th>简写</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1900</td><td>-10</td><td>25</td></tr>
+<tr><td>1910</td><td>-15</td><td>30</td></tr>
+<tr><td>1920</td><td>-10</td><td>32</td></tr>
+</tbody>
+</table>
+
+
+
 
