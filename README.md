@@ -143,9 +143,6 @@ HTML基础结构
      * 块状注释文字
      * 块状注释文字
      */
-    .m-list{width:500px;}
-    .m-list li{height:20px;line-height:20px;/* 这里是对line-height的一个注释 */overflow:hidden;}
-    .m-list li a{color:#333;} 
     ```
 
 * 选择器顺序
@@ -182,3 +179,9 @@ HTML基础结构
 .m-nav-dis{}/* 模块扩展（状态） */
 .m-nav.z-dis{}/* 作用同上，请二选一（如果可以不兼容IE6时使用） */
 ```
+
+| 语义  |  命名 | 简写 |
+| ------------ | ------------ |
+|   |   |
+|   |   |
+
