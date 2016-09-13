@@ -1,89 +1,50 @@
 
 ```javascript
-- datahub/
+- web-cli/
   + package.json  //npm配置文件
-  + webpack.config.js //webpack配置
-  + gulpfile.js  //gulp配置文件
+  + config.js //app配置文件
+  + index.html //入口html
   - node_modules //npm加载的模块
-  - bin //入口文件
-    + www
-  - components //组件包，合并html,js,css
-  - public //静态资源库
-    - css //css文件
-        - fonts //字符集
-        	+ editormd-logo.eot //编辑器字符集
-        	+ fontawesome-webfont.eot //bootstrap内置字符集
-        - include //公共引入文件
-        	+ animate.css //css3动画
-        	+ bootstrap-theme.min.css //bootstrap样式
-        	+ bootstrap.min.css //bootstrap核心样式
-        	+ footer.css //内页公共底部样式
-        	+ function.css //主要功能样式
-        	+ header.css //内页公共头部样式
-        	+ reset.css //公共样式
-        - module //模块
-        	+ error.css //报错模块样式
-        	+ index.css //首页模块样式
-        	+ iteminfo.css //详情页右侧模块样式
-        	+ loader.css // 加载动画样式
-        	+ nav.css //数据精选导航样式
-        	+ publicRepoList.css //登录前公用List模块样式
-        	+ replyTo.css //评论模块样式
-        	+ search.css //搜索模块样式
-        	+ selects.css //数据精选模块样式
-        	+ dataOwner.css //拥有方详情样式
-        	+ repodetails.css //repo详情样式
-    - img //图片
-    	- error //错误页面图片集
-    	- index //首页图片集
-    	- navselects //数据精选导航图片集
-    	- 其他公共集
-    - js //js文件
-      - util //工具包 
-      	+ formattime.js //字符串转化时间
-      	+ path.js 	//获取项目根路径
-      - widget //组件Js
-      	+ bAnalysis.js //百度统计
-      	+ growAnalysis.js //GrowingIO分析
-      	+ footTops.js //通用返回顶部js
-      	+ iteminfo.js //详情页右侧公共模块
-      	+ model.js // 通用模态框组件
-      	+ nav.js //数据精选左侧导航模块
-      	+ publicRepoList.js //登录前List模块
-        + replyTo.js //评论模块
-      - pagescript //页面本身js
-      	+ dataOwner.js //数据拥有方详情
-      	+ index.js //首页
-      	+ layout.js //内页公共
-      	+ pullList.js //repo详情
-      	+ search.js //搜索结果页
-      	+ selects.js //数据精选页
-      - plugin //插件包
-      	- pagination //分页插件
-      + base64.js //base64转码
-      + bootstrap.min.js //bootstrap插件核心js
-      + countUp.min.js //数字变化功能
-      + jquery.cookie.js //cookie功能
-      + jquery.min.js //jquery
-      + jquery.stellar.js //时差效果
-      + jquery.SuperSlide.2.1.1.js //通用效果
-      + md5.js //md5
-      + terminal.js //手机,pc端区分
-      + TouchSlide.1.1.js //手机端通用效果
-      + vue.js //vue框架核心js
-  - routes //路由控制
-    + index.js //路由入口
-  - views //视图
-    - tpl //模板
-    	+ layout.html //内页公共html
-    	+ nav.html //右侧导航html
-    	+ iteminfo.html //详情页右侧html
-    + error.html //错误页面
-    + index.html //首页
-    + modelforget.hmtl //忘记密码模态框
-    + modellogin.html //登录模态框
-    + repodetails.html //repo详情页
-    + search.html //搜索结果页
-    + selects.html //数据精选页
-    + userdetails.html //数据拥有方详情页
+  - bulid //build文件夹
+  	+ css-loaders.js //文件加载器
+  	+ dev-client.js //热加载配置
+  	+ dev-server.js //dev环境server
+  	+ webpack.base.conf.js //webpack基础
+  	+ webpack.dev.conf.js //dev环境webpack
+  	+ webpack.prod.conf.js //生产环境webpack
+  - config 配置文件
+  	+ dev.env.js //dev环境配置参数
+  	+ prod.env.js //生产环境参数
+  - dist
+  	+  //打包之后的文件内容
+  -src
+  	- assets //图片
+  	- common //通用配置
+  		+ page.js //分页配置
+  		+ routers.js //路由配置
+  	- components //组件
+  		- other //不可复用组件
+  			+ createDp.vue //创建dp
+  			+ dataPool.vue //datapool
+  			+ dataPoolDetails.vue //ddataPool详情
+  			+ dataPoolDetailsList.vue //dataPool详情列表
+  			+ repoDetails.vue //repo详情
+  		- reusable //可复用组件
+  			+ button.vue //按钮组件
+  			+ mCreatedp.vue //创建dp模态框
+  			+ mDeletedp.vue //删除dp模态框
+  			+ modal.vue //模态框
+  - vuex 公共状态池
+  	- modules 
+  		+ dp_item.js //dp中item 列表
+  		+ title_src //公共路径
+  	- actions.js
+  	- getters.js
+  	- mutation-types.js
+  	- store.js 
+  - static //静态资源
+  - test //测试
+  	- e2e //端对端测试
+  	- unit //单元测试
+ 
 ```
